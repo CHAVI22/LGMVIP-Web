@@ -1,0 +1,107 @@
+body {
+    background-image: linear-gradient(to bottom, #ede6ec 10%, #8af3f0 90%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 10vh 0 0 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  table {
+    table-layout: initial;
+    margin: 40px auto;
+    border-style: groove;
+    background-color: rgb(236, 188, 204);
+  }
+  
+  table.list {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 90%;
+    border-radius: 0.5cm;
+  }
+  
+  td {
+    border: 1px solid rgb(17, 16, 16);
+    text-align: left;
+    padding: 8px 15px;
+    background-color:rgb(249, 241, 244) ;
+  }
+  .list{
+    font-size: 2rem;
+  }
+  tr:nth-child(even),
+  table.list thread > tr {
+    background-color: #d8fbc6;
+  }
+  
+  input[type="text"] {
+    width: 95%;
+    padding: 10px 10px;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background: rgb(244, 233, 233);
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: #060606;
+    border-radius: 1.5cm;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  button:hover {
+    background: #ee0e0e;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background: #010101;
+    color: rgb(237, 229, 246);
+    font-size: 1.2rem;
+    font-family: cursive;
+  }
+  
+  tbody {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .input {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+  }
+  
+  button {
+    background: #060606;
+    color: white;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+  }
